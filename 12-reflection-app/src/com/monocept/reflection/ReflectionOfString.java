@@ -11,7 +11,7 @@ public class ReflectionOfString {
 		//Class<String> stringClass = String.class;
 		try {
 			//Class stringClass=Class.forName("java.lang.String");
-			stringClass = classLoader.loadClass("java.lang.String");
+			stringClass = classLoader.loadClass("java.lang.Double");
 			Constructor constructors[]= stringClass.getConstructors();
 			for(Constructor constructor:constructors) {
 				System.out.println(constructor.getName());
