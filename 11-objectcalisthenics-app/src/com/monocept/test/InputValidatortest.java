@@ -2,7 +2,7 @@ package com.monocept.test;
 
 import java.util.Scanner;
 
-import com.monocept.oc.InputValidator;
+import com.monocept.model.InputValidator;
 
 public class InputValidatortest {
 

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/11-oc-app/src/com/monocept/oc/PigGame.java"/>
+<listEntry value="/11-objectcalisthenics-app/src/com/monocept/model/PigGame.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
 <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.monocept.oc.PigGame"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.monocept.model.PigGame"/>
 <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value=""/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="11-oc-app"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="11-objectcalisthenics-app"/>
 </launchConfiguration>
