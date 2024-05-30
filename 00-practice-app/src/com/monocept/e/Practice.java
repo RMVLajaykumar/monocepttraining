@@ -1,4 +1,4 @@
-package com.monocept.e;
+epackage com.monocept.e;
 
 public class Practice {
 	
@@ -32,7 +32,7 @@ public class Practice {
 		boolean isaddressValid=Address(address);
 	    boolean ispnoValid=Phoneno(pno);
 	    if(isRollnoValid&&isnameValid&&isaddressValid&&ispnoValid)
-			return "Valid ";
+			return "Valid everything is correct";
 	return "invalid somthing is not correct";
 
 		
