@@ -32,8 +32,8 @@ public class Practice {
 		boolean isaddressValid=Address(address);
 	    boolean ispnoValid=Phoneno(pno);
 	    if(isRollnoValid&&isnameValid&&isaddressValid&&ispnoValid)
-			return "Valid";
-	return "invalid";
+			return "Valid ";
+	return "invalid somthing is not correct";
 
 		
 	}
