@@ -8,7 +8,9 @@ public class ReflectionOfString {
 	public static void main(String[] args) {
 		ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
 		Class<?> stringClass;
+		//Class<String> stringClass = String.class;
 		try {
+			//Class stringClass=Class.forName("java.lang.String");
 			stringClass = classLoader.loadClass("java.lang.String");
 			Constructor constructors[]= stringClass.getConstructors();
 			for(Constructor constructor:constructors) {
@@ -24,9 +26,6 @@ public class ReflectionOfString {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		//Class<String> stringClass = String.class;
-		
-
 	}
 
 }
