@@ -1,0 +1,34 @@
+package com.monocept.e;
+
+public class Practice {
+	
+	 public static boolean Input(String input,int minlength,int maxlength) {
+		 if(input==null||input.length()<minlength||input.length()>maxlength)
+			 return false;
+		return true;
+	 }
+	  
+	 public static boolean Rollnumber(String rollno) {
+		 return Input(rollno,5,10);
+	 }
+	 public static boolean Name(String name) {
+		 return Input(name,3,30);
+	 }
+	 public static boolean Address(String address) {
+		 if(!Input(address,5,50))
+			 return false;
+		 if(!address.contains("/")||!address.contains(",")||!address.contains("-"))
+			 return false;
+	 return true;
+	 }
+	 public static boolean Pno(int pno) {
+		 int i=1;
+		for(i=1;i<=10;i++) {
+			pno+=i;
+		}
+		if(pno>i)
+			return false;
+	return true;
+	 }
+
+}

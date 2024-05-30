@@ -1,0 +1,12 @@
+content_assist_category_order=org.eclipse.wst.jsdt.ui.defaultProposalCategory\:0\u0000org.eclipse.wst.jsdt.ui.templateProposalCategory\:1\u0000org.eclipse.wst.jsdt.ui.javaNoTypeProposalCategory\:2\u0000org.eclipse.wst.jsdt.ui.textProposalCategory\:3\u0000org.eclipse.wst.jsdt.ui.genericProposalCategory\:4\u0000
+content_assist_disabled_computers=
+eclipse.preferences.version=1
+fontPropagated=true
+org.eclipse.jface.textfont=1|Consolas|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Consolas;
+org.eclipse.wst.jsdt.ui.editor.tab.width=
+org.eclipse.wst.jsdt.ui.formatterprofiles.version=11
+org.eclipse.wst.jsdt.ui.javadoclocations.migrated=true
+proposalOrderMigrated=true
+tabWidthPropagated=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Practice.java&apos; to &apos;com.monocept.e.Seasons.java&apos;&#x0D;&#x0A;- Original project: &apos;09-practice-app&apos;&#x0D;&#x0A;- Destination element: &apos;com.monocept.e.Seasons.java&apos;&#x0D;&#x0A;- Original element: &apos;Practice.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;com.monocept.e{Seasons.java" element1="/src&lt;{Practice.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1716905350091" units="1" version="1.0"/>
+</session>

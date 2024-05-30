@@ -1,0 +1,14 @@
+package com.techlabs.test;
+
+import com.techlabs.model.Student;
+
+public class Studenttest {
+
+	public static void main(String[] args) {
+		
+		Student student=new Student();
+		
+
+	}
+
+}

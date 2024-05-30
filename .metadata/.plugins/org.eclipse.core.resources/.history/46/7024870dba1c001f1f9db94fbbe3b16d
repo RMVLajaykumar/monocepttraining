@@ -1,0 +1,71 @@
+package com.monocept.oc;
+
+import java.util.Scanner;
+
+public class InputValidator {
+	static String username="";
+	static String password="";
+	static String email="";
+	 
+	public static void main(String[] args) {
+		usernameValidate();
+		PasswordValidate();
+		emailValidate();
+		displayResult();
+	}
+
+	private static void displayResult() {
+		System.out.println("username is:"+username);
+		System.out.println("password is:"+password);
+		System.out.println("email id is:"+email);
+		
+	}
+
+	public static String emailValidate() {
+		Scanner scanner=new Scanner(System.in);
+		int length=email.length();
+		System.out.println("enter password");
+		String emailId=scanner.next();
+		if(email.isEmpty()|| email==null)
+		System.out.println("email cannot be null or empty");
+		if(length>5 && length<50)
+	    System.out.println("email must be greater than 5 and less than 50");
+		boolean emails=email.contains(".");
+		if(email.contains("@") && emails);
+		return "Invalid password";
+		
+		
+	}
+
+	public static String PasswordValidate() {
+		Scanner scanner=new Scanner(System.in);
+		int length=password.length();
+		if(password.isEmpty()|| password==null)
+		System.out.println("password cannot be null or empty");
+		if(length>8 && length<30) {
+		System.out.println("enter password");
+		String Password=scanner.next();
+		}
+		return "Invalid password";
+		
+	}
+
+	public static String usernameValidate() {
+		Scanner scanner=new Scanner(System.in);
+		int length=username.length();
+		System.out.println("enter username");
+		String Username=scanner.next();
+		if(username.isEmpty()|| username==null)
+		System.out.println("username cannot be null or empty");
+		if(length>3 && length<30) 
+			System.out.println("username should be greater than 3 and less than 30");
+		return "Invalid username";
+			
+		
+		
+			
+		
+	}
+	}
+
+

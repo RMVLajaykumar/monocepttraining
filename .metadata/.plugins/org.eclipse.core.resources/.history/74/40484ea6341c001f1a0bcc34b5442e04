@@ -1,0 +1,64 @@
+package com.monocept.oc;
+
+import java.util.Scanner;
+
+public class PigGame {
+	static int score=0;
+	static int total_score=0;
+
+	public static void main(String[] args) {
+		int no_of_turns=0;
+		rolldice(total_score);
+		displayresult(total_score,no_of_turns);
+
+	
+
+	}
+
+	private static int displayresult(int total_score, int no_of_turns) {
+		return no_of_turns;
+		
+	}
+
+	private static void rolldice(int total_score) {
+		int no_of_turns=0;
+		while(total_score<=20) {
+			Scanner scanner=new Scanner(System.in);
+			System.out.println("choose roll or hold");
+			String selection=scanner.next();
+			if(selection.equals("roll"))
+			choiceRoll(selection,total_score,no_of_turns);
+			if(selection.equals("hold"))
+			chioceHold(selection,total_score,no_of_turns);
+			
+			
+
+			
+		}
+		
+	}
+
+	private static int chioceHold(String selection, int total_score, int no_of_turns) {
+		int score=0;
+		no_of_turns+=1;
+		total_score+=score;
+		System.out.println("Score for turn "+no_of_turns+" : " + score+ "\nTotal score : "+total_score);
+		score=0;
+		return total_score;
+	}
+
+	private static String choiceRoll(String selection, int total_score, int no_of_turns) {
+		int score=0;
+		int a=(int)(Math.random()*(6))+1;
+		System.out.println("dice:"+a);
+		if(a!=1)
+			score+=a;
+		
+		return "turnover no score";
+		
+
+	
+		
+	}
+	
+}

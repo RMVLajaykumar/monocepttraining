@@ -1,0 +1,13 @@
+package com.monocept.test;
+
+import com.monocept.oc.InputValidator;
+
+public class InputValidatortest {
+
+	public static void main(String[] args) {
+		InputValidator inputs=new InputValidator();
+		inputs.usernameValidate();
+
+	}
+
+}
