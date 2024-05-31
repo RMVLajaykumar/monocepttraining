@@ -1,4 +1,4 @@
-epackage com.monocept.e;
+package com.monocept.e;
 
 public class Practice {
 	
