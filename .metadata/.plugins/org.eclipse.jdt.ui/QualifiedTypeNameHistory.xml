@@ -2,7 +2,6 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="java.io.FileInputStream"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.techlabs.oops.Student"/>
@@ -14,14 +13,30 @@
 <fullyQualifiedTypeName name="com.techlabs.model.Account"/>
 <fullyQualifiedTypeName name="com.techlabs.model.Rectangle"/>
 <fullyQualifiedTypeName name="com.techlabs.model.Complex"/>
-<fullyQualifiedTypeName name="com.monocept.model.Account"/>
 <fullyQualifiedTypeName name="com.monocept.model.AccountType"/>
 <fullyQualifiedTypeName name="com.monocept.model.Student"/>
 <fullyQualifiedTypeName name="com.monocept.oc.InputValidator"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="com.monocept.e.Practice"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
 <fullyQualifiedTypeName name="com.monocept.reflection.Reflectiontest"/>
+<fullyQualifiedTypeName name="com.monocept.staticmodel.StaticDemo"/>
+<fullyQualifiedTypeName name="com.monocept.staticmodel.Account"/>
+<fullyQualifiedTypeName name="com.monocept.model.Boxweight"/>
+<fullyQualifiedTypeName name="com.monocept.model.Account"/>
+<fullyQualifiedTypeName name="com.monocept.model.Accounttype"/>
+<fullyQualifiedTypeName name="com.monocept.model.CurrentAccount"/>
+<fullyQualifiedTypeName name="com.monocept.model.SavingsAccount"/>
+<fullyQualifiedTypeName name="com.monocept.model.AccountSerialize"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
+<fullyQualifiedTypeName name="com.monocept.test.cartest"/>
+<fullyQualifiedTypeName name="com.monocept.model.Car"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
+<fullyQualifiedTypeName name="com.monocept.model.Vehicle"/>
+<fullyQualifiedTypeName name="com.monocept.model.FourWheeler"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
 </qualifiedTypeNameHistroy>
