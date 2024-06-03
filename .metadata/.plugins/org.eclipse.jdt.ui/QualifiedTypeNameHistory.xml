@@ -39,4 +39,6 @@
 <fullyQualifiedTypeName name="com.monocept.model.FourWheeler"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="com.monocept.model.Derived"/>
+<fullyQualifiedTypeName name="com.monocept.model.Z"/>
 </qualifiedTypeNameHistroy>

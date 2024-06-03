@@ -1,7 +1,6 @@
 package com.monocept.test;
 import java.util.Scanner;
 import com.monocept.model.Account;
-import com.monocept.model.Accounttype;
 import com.monocept.model.CurrentAccount;
 import com.monocept.model.SavingsAccount;
 public class Accounttest {
