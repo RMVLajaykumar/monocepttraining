@@ -17,15 +17,4 @@ public class SavingsAccount extends Account{
 		super( accountno,name, balance);
 		MIN_BALANCE = mIN_BALANCE;
 	}
-
-	@Override
-	public String toString() {
-		return "SavingsAccount [getAccountno()=" + getAccountno() + ", getName()=" + getName() + ", getBalance()="
-				+ getBalance() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
-				+ super.toString() + "]";
-	}
-
-	
-	
-
 }

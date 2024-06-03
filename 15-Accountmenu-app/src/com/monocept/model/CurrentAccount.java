@@ -8,14 +8,5 @@ public class CurrentAccount extends Account{
 		OVER_DRAFT_LIMIT = oVER_DRAFT_LIMIT;
 	}
 	public CurrentAccount() {
-	}
-
-	@Override
-	public String toString() {
-		return "CurrentAccount [getAccountno()=" + getAccountno() + ", getName()=" + getName() + ", getBalance()="
-				+ getBalance() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
-				+ super.toString() + "]";
-	}
-
-	
+	}	
 }
