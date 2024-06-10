@@ -52,7 +52,7 @@ public class SmartDevicetest {
                 smart.addDevice(thermostat);
                 break;
             case 3:
-            	System.out.println("you selected secuity camera1");
+            	System.out.println("you selected secuity camera");
                 SecurityCamera securitycamera = securitycameraSelection(scanner, new SecurityCamera());
                 smart.addDevice(securitycamera);
                 break;

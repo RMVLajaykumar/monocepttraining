@@ -51,10 +51,10 @@ public class ArrayListDemo {
 		int age = scanner.nextInt();
 		System.out.println("enter new address");
 		String address = scanner.next();
-		
 		Person person5=new Person(name,age,address);
 		person.set(2, person5);
 		System.out.println(person5);
+		giveDetails(person);
 		System.out.println();
 		//removing 2 persons details.
 		person.remove(1);
