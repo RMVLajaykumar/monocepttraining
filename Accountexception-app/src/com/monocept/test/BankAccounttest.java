@@ -16,6 +16,7 @@ public class BankAccounttest {
 		}
 		try {
 		BankAccount account2=new BankAccount(1500);
+		account2.setBalance(2000);
 		account2.withdraw();
 		}
 		catch(InsufficientFundsException e) {
