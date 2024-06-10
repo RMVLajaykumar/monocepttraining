@@ -53,7 +53,7 @@ public class ArrayListDemo {
 		String address = scanner.next();
 		Person person5=new Person(name,age,address);
 		person.set(2, person5);
-		System.out.println(person5);
+		System.out.println(person5+"\n");
 		giveDetails(person);
 		System.out.println();
 		//removing 2 persons details.

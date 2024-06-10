@@ -28,13 +28,13 @@ public class BankAccount {
 	}
 
 	public void setAmount(double amount) {
-		amount = amount;
+		this.amount = amount;
 	}
 	
 	public void deposit() throws NegativeAmountException {
 		if(amount<0)
 			throw new NegativeAmountException();
-		System.out.println(amount+" is deposited");
+		System.out.println(amount+" is deposited \n");
 		
 	}
 	public void withdraw() throws InsufficientFundsException {
