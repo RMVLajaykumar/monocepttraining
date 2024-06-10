@@ -26,8 +26,8 @@ public class Accounttest {
     }
 private static void optioncurrent(Scanner scanner, CurrentAccount current, int option) {
 	boolean exit=false;
+	System.out.println("you choose current Account.");
 	 while(!exit) {
-		 System.out.println("you choose current Account.");
 		 System.out.println("Select operation:");
 		 System.out.println(" 1.Create Account \n 2.Display Account Details \n 3.Credit into Account \n 4.Debit into Account \n 5.Exit");
 		 int operation=scanner.nextInt();
@@ -35,6 +35,7 @@ private static void optioncurrent(Scanner scanner, CurrentAccount current, int o
      	switch(operation) {
     	case 1:
     		currents(scanner,current);
+    		System.out.println("your current account is created");
     		break;
     	case 2:
     		displayCurrent(current);
@@ -65,14 +66,15 @@ private static void validateCurrent(Scanner scanner, CurrentAccount current) {
 }
 private static void optionSavings(Scanner scanner, SavingsAccount savings,int option) {
 	boolean exit=false;
+	System.out.println("you choose Savings Account.");
     while(!exit) {
-        	System.out.println("you choose Savings Account.");
         	System.out.println("Select operation:");
         	System.out.println(" 1.Create Account \n 2.Display Account Details \n 3.Credit into Account \n 4.Debit into Account \n 5.Exit");
         	int operation=scanner.nextInt();
         	switch(operation) {
         	case 1:
         		saving(scanner,savings);
+        		System.out.println("your savings account is created");
         		break;
         	case 2:
         		displaySaving(savings);
