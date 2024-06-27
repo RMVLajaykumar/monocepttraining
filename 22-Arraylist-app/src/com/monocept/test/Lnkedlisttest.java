@@ -9,6 +9,7 @@ public class Lnkedlisttest {
 		a.add("axy");
 		System.out.println(a);
 		a.offer("111");
+		
 	}
 
 }

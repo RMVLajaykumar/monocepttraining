@@ -27,23 +27,22 @@ public class ArrayListDemo {
 		}
 		giveDetails(person);
 		
-	     
+	     //Add a new Person object to the beginning of the ArrayList
 		details(0,person,scanner);
 		giveDetails(person);
-		
-		
-		System.out.println();
-		
+		//Add a new Person object to the end of the ArrayList
 		details(person.size(),person,scanner);
 		giveDetails(person);
-		
+		// Insert a Person object at the third position in the ArrayList
 		details(2,person,scanner);
 		giveDetails(person);
 		
-		System.out.println();
-		System.out.println("details of 5th person is:"+person.get(4));
+		//Accessing Elements
+		System.out.println("\n details of 5th person is:"+person.get(4));
 		System.out.println("details of 1st person is:"+person.get(0));
 		System.out.println("details of last person is:"+person.get(person.size()-1));
+		
+		//Updating Elements
 		
 		System.out.println("enter new name");
 		String name= scanner.next();
@@ -67,7 +66,7 @@ public class ArrayListDemo {
 	    //printing the index value based on name
 		printingIndexOfPerson(person,scanner);
 		
-		
+		//Traversing the ArrayList
 		for(int i=0;i<person.size();i++) {
 			System.out.println(person.get(i));
 		}
@@ -75,6 +74,7 @@ public class ArrayListDemo {
 		for(Person person1:person) {
 			System.out.println(person1);
 		}
+		//Clearing the ArrayList
 		person.clear();
 		System.out.println();
 		System.out.println(person+"\n");

@@ -1,12 +1,16 @@
 package com.monocept.test;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 import java.util.Scanner;
 
 import com.monocept.model.Employee;
+import com.monocept.test.EmployeeComparator.EmployeebyName;
+import com.monocept.test.EmployeeComparator.EmployeebySalary;
 
 public class EmployeeTest {
 
@@ -43,9 +47,15 @@ public class EmployeeTest {
 		//while(emp1.hasPrevious())
 	//	System.out.println(emp1.previous());
 //		
-	for(int i=0;i<employees.size();i++)
-		System.out.println(employees.get(i));
+//	for(int i=0;i<employees.size();i++)
+//		System.out.println(employees.get(i));
+		Collections.sort(employees,new EmployeeComparator.EmployeebyName());
+		System.out.println(employees);
+		
+		
+		Collections.sort(employees,new EmployeeComparator.EmployeebySalary());
+		System.out.println(employees);
 
+	
 	}
-
 }
