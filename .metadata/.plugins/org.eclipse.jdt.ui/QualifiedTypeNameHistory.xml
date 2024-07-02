@@ -1,27 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Map"/>
-<fullyQualifiedTypeName name="java.util.Map.Entry"/>
-<fullyQualifiedTypeName name="java.util.Collection"/>
-<fullyQualifiedTypeName name="com.monocept.model.Employee"/>
-<fullyQualifiedTypeName name="com.monocept.test.EmployeeComparator.EmployeebyName"/>
-<fullyQualifiedTypeName name="com.monocept.test.EmployeeComparator.EmployeebySalary"/>
-<fullyQualifiedTypeName name="com.monocept.model.InsurancePolicy"/>
-<fullyQualifiedTypeName name="java.util.Collections"/>
-<fullyQualifiedTypeName name="com.monocept.test.InsuranceComparator.Sortbyname"/>
-<fullyQualifiedTypeName name="com.monocept.test.InsuranceComparator.SortbyAmount"/>
-<fullyQualifiedTypeName name="com.monocept.test.InsuranceComparator.SortbyCreationDate"/>
-<fullyQualifiedTypeName name="com.monocept.MyThread"/>
-<fullyQualifiedTypeName name="com.monocept.NewThread"/>
-<fullyQualifiedTypeName name="com.monocept.model.Callme"/>
-<fullyQualifiedTypeName name="com.monocept.model.Caller"/>
-<fullyQualifiedTypeName name="com.monocept.model.Task"/>
-<fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
-<fullyQualifiedTypeName name="java.lang.Thread"/>
-<fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
-<fullyQualifiedTypeName name="java.util.concurrent.ExecutorService"/>
-<fullyQualifiedTypeName name="com.monocept.model.NewTask"/>
-<fullyQualifiedTypeName name="java.util.concurrent.Future"/>
 <fullyQualifiedTypeName name="com.monocept.model.MediaPlayer"/>
 <fullyQualifiedTypeName name="com.monocept.model.AudioPlayer"/>
 <fullyQualifiedTypeName name="com.monocept.model.Itester"/>
@@ -42,8 +20,6 @@
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.util.Comparator"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.nio.file.Paths"/>
 <fullyQualifiedTypeName name="java.nio.file.Files"/>
@@ -60,4 +36,28 @@
 <fullyQualifiedTypeName name="com.monocept.creational.factory.model.SavingsAccount"/>
 <fullyQualifiedTypeName name="com.monocept.creational.factory.model.CurrentAccount"/>
 <fullyQualifiedTypeName name="com.monocept.creational.factory.model.AccountFactory"/>
+<fullyQualifiedTypeName name="com.monocept.model.Person"/>
+<fullyQualifiedTypeName name="com.monocept.model.Student"/>
+<fullyQualifiedTypeName name="com.monocept.creational.abstraction.model.ICarFactory"/>
+<fullyQualifiedTypeName name="com.monocept.creational.abstraction.model.MarutiFactory"/>
+<fullyQualifiedTypeName name="com.monocept.creational.abstraction.model.ICars"/>
+<fullyQualifiedTypeName name="com.monocept.structural.facade.model.HotelReception"/>
+<fullyQualifiedTypeName name="com.monocept.adapter.model.Biscuit"/>
+<fullyQualifiedTypeName name="com.monocept.adapter.model.Chocolate"/>
+<fullyQualifiedTypeName name="com.monocept.adapter.model.ShopingCart"/>
+<fullyQualifiedTypeName name="com.monocept.model.StandardHat"/>
+<fullyQualifiedTypeName name="com.monocept.model.GoldenHat"/>
+<fullyQualifiedTypeName name="com.monocept.model.RibonHat"/>
+<fullyQualifiedTypeName name="com.monocept.model.ICarservice"/>
+<fullyQualifiedTypeName name="com.monocept.model.CarInspection"/>
+<fullyQualifiedTypeName name="com.monocept.model.OilChange"/>
+<fullyQualifiedTypeName name="com.monocept.model.WheelAlign"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.monocept.model.Account"/>
+<fullyQualifiedTypeName name="com.monocept.model.Emailnotifier"/>
+<fullyQualifiedTypeName name="com.monocept.model.SmsNotifier"/>
+<fullyQualifiedTypeName name="com.monocept.behavioural.model.OperationStrategy"/>
+<fullyQualifiedTypeName name="com.monocept.behavioural.model.AddOperation"/>
+<fullyQualifiedTypeName name="com.monocept.behavioural.model.MultiplyOperation"/>
 </qualifiedTypeNameHistroy>
