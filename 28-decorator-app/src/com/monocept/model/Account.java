@@ -45,14 +45,26 @@ public class Account {
 
 		for (INotifier notify : notifier) {
 			if (notify.getClass().equals(notifiers.getClass())) {
-
-				return;
+				throw new AlreadyExistException();
 			}
 
 		}
 		notifier.add(notifiers);
-		return;
+		
 
+	}
+	
+	public void deregisterUser(INotifier notifiers) {
+		boolean flag=false;
+		for(INotifier notify : notifier) {
+			if(notify.getClass().equals(notifiers.getClass())) {
+				flag = true;
+				notifier.remove(notifiers);
+				
+			}
+		}
+		if(!flag)
+			throw new NotExistNotifierException();
 	}
 
 	public void withDraw(double amount) {
